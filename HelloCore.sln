@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E920F71D-BF76-426F-B836-1801EF77A501}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A0D6997B-BBB4-4BEF-91BE-5F0B1CE50FDA}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloCore", "src\HelloCore\HelloCore.xproj", "{64502D84-FDC5-4A12-9106-058FDF3BAF7E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloCoreService", "src\HelloCoreService\HelloCoreService.xproj", "{4F24DAE7-8EF0-4A4D-ABFA-4F08DE9BACE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64502D84-FDC5-4A12-9106-058FDF3BAF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64502D84-FDC5-4A12-9106-058FDF3BAF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64502D84-FDC5-4A12-9106-058FDF3BAF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64502D84-FDC5-4A12-9106-058FDF3BAF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F24DAE7-8EF0-4A4D-ABFA-4F08DE9BACE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F24DAE7-8EF0-4A4D-ABFA-4F08DE9BACE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F24DAE7-8EF0-4A4D-ABFA-4F08DE9BACE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F24DAE7-8EF0-4A4D-ABFA-4F08DE9BACE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64502D84-FDC5-4A12-9106-058FDF3BAF7E} = {E920F71D-BF76-426F-B836-1801EF77A501}
+		{4F24DAE7-8EF0-4A4D-ABFA-4F08DE9BACE5} = {E920F71D-BF76-426F-B836-1801EF77A501}
+	EndGlobalSection
+EndGlobal
